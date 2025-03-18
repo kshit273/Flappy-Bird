@@ -181,8 +181,8 @@ back_img2 = pygame.image.load("img1.jpg").convert_alpha()
 floor_img = pygame.image.load("__maingame__/img_52.png").convert_alpha()
 floor_img2 = pygame.image.load("__maingame__/img_52.png").convert_alpha()
 
-new_level = pygame.image.load("new level text2.png").convert_alpha()
-new_level.set_alpha(alpha)
+#new_level = pygame.image.load("new level text2.png").convert_alpha()
+#new_level.set_alpha(alpha)
 floor_x = 0
 floor_x2 = 1017
 
@@ -375,7 +375,7 @@ while running:
             if not game_over:
                 back_img = pygame.image.load("__maingame__/spring world.jpg").convert_alpha()
                 pipe_img = pygame.image.load("Sprites/3.png").convert_alpha()
-                screen.blit(new_level, (width // 2, height // 2))
+                #screen.blit(new_level, (width // 2, height // 2))
         
         # To load different stages
         if event.type == bird_flap:
